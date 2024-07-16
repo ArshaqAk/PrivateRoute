@@ -14,7 +14,7 @@ const Login = () => {
       Login
 
       <div>
-        <button onClick={handleLogin}>Login</button>
+        <button className='btn btn-success' onClick={handleLogin}>Login</button>
       </div>
       
     </div>

@@ -14,7 +14,7 @@ const Dashboard = () => {
     <div>
       Dashboard
       <br />
-      <button onClick={handleSignout}>Signout</button>
+      <button className='btn btn-danger' onClick={handleSignout}>Signout</button>
     </div>
   )
 }
